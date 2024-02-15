@@ -1,1 +1,79 @@
-console.log('welcome  to javascript')
+// bmi = mass / (heigth * height)
+//  bmi = mass /  (height ** 2)
+
+/*
+const massMark = 78
+const heightMark = 1.69
+const massJohn = 92
+const heightJohn = 1.95
+const bmiMark = 78 / 1.69 ** 2
+const bmiJohn = 92 / 1.95 ** 2
+
+console.log(bmiMark, bmiJohn)
+
+
+
+if (bmiMark > bmiJohn) {
+  console.log(`Mark's BMI (${bmiMark}) is higher than John's (${bmiJohn})`)
+} else {
+  console.log(`John's BMI (${bmiJohn}) is higher than John's (${bmiMark})`)
+}
+
+*/
+
+/*
+if (scoreDolphins > scoreKoalas) {
+  console.log('Dolphins win the trophy')
+} else if (scoreKoalas > scoreDolphins) {
+  console.log('koalas win  the trophy')
+} else {
+  console.log('both win the trophy')
+}
+
+const scoreDolphins = (100 + 108 + 120) / 3
+const scoreKoalas = (100 + 100 + 110) / 3
+
+console.log(
+  ` score of dolphins ${scoreDolphins}, score of koalas  ${scoreKoalas}`
+)
+
+if (scoreDolphins > scoreKoalas && scoreDolphins > 100) {
+  console.log('Dolphins win the trophy')
+} else if (scoreKoalas > scoreDolphins && scoreKoalas > 100) {
+  console.log('Koalas win  the trophy')
+} else if (
+  scoreDolphins === scoreKoalas &&
+  scoreDolphins >= 100 &&
+  scoreKoalas >= 100
+) {
+  console.log('both win the trophy')
+} else {
+  console.log('no one wins  the trophy')
+}
+
+
+const day = 'sunday'
+
+switch (day) {
+  case 'monday':
+    console.log('welcome')
+    break
+  case 'tuesday':
+    console.log('next  day')
+    break
+  default:
+    console.log('welcome to the switch statement')
+}
+
+const bill = 275
+const tip = bill <= 300 && bill >= 50 ? bill * 0.2 : bill * 0.1
+console.log(
+  `the bill was ${bill}, and the tip was ${tip}, and the total value  was ${
+    bill + tip
+  }`
+)
+
+
+
+
+*/
