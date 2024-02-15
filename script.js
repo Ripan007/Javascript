@@ -118,3 +118,5 @@ console.log(yearsUntilRetirement(1995, 'random'))
 
 
 */
+
+const calAverage = (a, b, c) => (a + b + c) / 3
