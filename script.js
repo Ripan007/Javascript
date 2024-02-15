@@ -134,3 +134,4 @@ const checkWinner = function (avgDolphins, avgKoalas) {
 }
 
 checkWinner(scoreDolphins, scoreKoalas)
+checkWinner()
