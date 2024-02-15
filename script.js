@@ -123,3 +123,7 @@ const calAverage = function (a, b, c) {
   const averageScore = (a + b + c) / 3
   return averageScore
 }
+
+const scoreDolphins = function () {}
+
+const scoreKoalas = function () {}
