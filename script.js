@@ -124,6 +124,13 @@ const calAverage = function (a, b, c) {
   return averageScore
 }
 
-const scoreDolphins = function () {}
+const scoreDolphins = function (score1, score2, score3) {
+  return calAverage(score1, score2, score3)
+}
 
-const scoreKoalas = function () {}
+const scoreKoalas = function (score1, score2, score3) {
+  return calAverage(score1, score2, score3)
+}
+
+console.log(scoreDolphins(44, 23, 71))
+console.log(scoreKoalas(65, 54, 49))
