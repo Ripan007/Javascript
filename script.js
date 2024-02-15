@@ -1,3 +1,5 @@
+//  REUSABLE CODE , DRY CODE (don't repeat your code) //
+
 // bmi = mass / (heigth * height)
 //  bmi = mass /  (height ** 2)
 
