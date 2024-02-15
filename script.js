@@ -137,6 +137,7 @@ console.log(scoreKoalas(65, 54, 49))
 
 const checkWinner = function (avgDolphins, avgKoalas) {
   if (avgDolphins >= 2 * avgKoalas) {
-    console.log()
+    console.log(`Dolphins win ( ${avgDolphins} vs ${avgKoalas})`)
+  } else if (avgKoalas >= 2 * avgDolphins) {
   }
 }
