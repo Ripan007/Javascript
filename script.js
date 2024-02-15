@@ -79,3 +79,13 @@ console.log(
 
 
 */
+
+//  mohit retires at the age  of ?
+
+const retiresUtilAge = (birthYear, name) => {
+  const age = 2024 - birthYear
+  const retire = 80 - age
+  return `${name} remain age for  retirement is ${retire}`
+}
+
+console.log(retiresUtilAge(1995, 'ripan'))
