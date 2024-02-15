@@ -98,11 +98,6 @@ const fruitProcessor = function (apple, orange) {
 console.log(fruitProcessor(2, 4))
 
 
-
-
-
-*/
-
 const calAge = function (birthYear) {
   return 2050 - birthYear
 }
@@ -120,3 +115,6 @@ const yearsUntilRetirement = function (birthYear, name) {
 }
 
 console.log(yearsUntilRetirement(1995, 'random'))
+
+
+*/
