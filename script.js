@@ -132,7 +132,7 @@ const scoreKoalas = function (score1, score2, score3) {
   return calAverage(score1, score2, score3)
 }
 
-console.log(scoreDolphins(44, 23, 71))
+console.log(scoreDolphins(100, 200, 200))
 console.log(scoreKoalas(65, 54, 49))
 
 const checkWinner = function (avgDolphins, avgKoalas) {
