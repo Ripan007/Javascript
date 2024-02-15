@@ -142,6 +142,7 @@ const checkWinner = function (avgDolphins, avgKoalas) {
     console.log(`Koalas win (${avgKoalas} vs ${avgDolphins})`)
   } else {
     console.log(`no one wins`)
+    console.log(avgDolphins)
   }
 }
 
