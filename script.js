@@ -88,7 +88,6 @@ console.log(retiresUtilAge(1995, 'random'))
 
 */
 
-
-const fruitProcessor  = function ()=>{
-
+const fruitProcessor = function (apple, orange) {
+  const applePieces = cutFruit()
 }
