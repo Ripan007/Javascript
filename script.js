@@ -102,3 +102,15 @@ console.log(fruitProcessor(2, 4))
 
 
 */
+
+const calAge = function (birthYear) {
+  return 2050 - birthYear
+}
+
+const yearsUntilRetirement = function (birthYear, name) {
+  const age = calAge(birthYear)
+  const retirement = 90 - age
+  if (retirement > 0) {
+    console.log()
+  }
+}
