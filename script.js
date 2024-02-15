@@ -111,6 +111,9 @@ const yearsUntilRetirement = function (birthYear, name) {
   const age = calAge(birthYear)
   const retirement = 90 - age
   if (retirement > 0) {
-    console.log()
+    console.log(`${name} retires at the age of ${retirement}`)
+    return retirement
   }
+}else{
+
 }
