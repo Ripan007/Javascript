@@ -132,18 +132,17 @@ const scoreKoalas = function (score1, score2, score3) {
   return calAverage(score1, score2, score3)
 }
 
-console.log(scoreDolphins(100, 200, 200))
-console.log(scoreKoalas(65, 54, 49))
+console.log(scoreDolphins(1, 20, 200))
+console.log(scoreKoalas(605, 540, 49))
 
 const checkWinner = function (avgDolphins, avgKoalas) {
-  console.log(avgDolphins)
-  if (avgDolphins >= 2 * avgKoalas) {
+  if (avgDolphins  >= 2* avgKoalas) {
     console.log(`Dolphins win ( ${avgDolphins} vs ${avgKoalas})`)
   } else if (avgKoalas >= 2 * avgDolphins) {
     console.log(`Koalas win (${avgKoalas} vs ${avgDolphins})`)
   } else {
     console.log(`no one wins`)
-  }
+0-988888888888888888888888888877689777777777777777
 }
 
 console.log(checkWinner(scoreDolphins, scoreKoalas))
