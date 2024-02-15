@@ -91,5 +91,5 @@ console.log(retiresUtilAge(1995, 'random'))
 const fruitProcessor = function (apple, orange) {
   const applePieces = cutPieces(apple)
   const orangePieces = cutPieces(orange)
-  const juice = ``
+  const juice = `juice with ${applePieces} pices`
 }
