@@ -84,12 +84,21 @@ const retiresUtilAge = (birthYear, name) => {
 console.log(retiresUtilAge(1995, 'random'))
 
 
-
-
-*/
+const cutPieces = function (fruit) {
+  return fruit * 4
+}
 
 const fruitProcessor = function (apple, orange) {
   const applePieces = cutPieces(apple)
   const orangePieces = cutPieces(orange)
-  const juice = `juice with ${applePieces} pices`
+  const juice = `juice with ${applePieces} pieces of apple and ${orangePieces} pieces of orange`
+  return juice
 }
+
+console.log(fruitProcessor(2, 4))
+
+
+
+
+
+*/
