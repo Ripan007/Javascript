@@ -135,4 +135,8 @@ const scoreKoalas = function (score1, score2, score3) {
 console.log(scoreDolphins(44, 23, 71))
 console.log(scoreKoalas(65, 54, 49))
 
-const checkWinner = function (avgDolphins, avgKoalas) {}
+const checkWinner = function (avgDolphins, avgKoalas) {
+  if (avgDolphins >= 2 * avgKoalas) {
+    console.log()
+  }
+}
