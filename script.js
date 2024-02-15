@@ -123,4 +123,8 @@ const calAverage = (a, b, c) => (a + b + c) / 3
 const scoreDolphins = calAverage(44, 23, 71)
 const scoreKoalas = calAverage(65, 54, 49)
 
-const checkWinner = function (avgDolphins, avgKoalas) {}
+const checkWinner = function (avgDolphins, avgKoalas) {
+  if (avgDolphins >= 2 * avgKoalas) {
+    console.log(`koalas win ()`)
+  }
+}
