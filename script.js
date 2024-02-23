@@ -134,3 +134,5 @@ checkWinner(scoreDolphins, scoreKoalas)
 
 
 */
+
+document.write('welcome')
