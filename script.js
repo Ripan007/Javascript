@@ -136,11 +136,12 @@ checkWinner(scoreDolphins, scoreKoalas)
 */
 
 const strings = ['a','b','c','d'];
-strings.push('e');
+strings.push('e'); // 0(1)
+strings.pop() // 0(1)
 strings.pop()
-strings.pop()
-strings.unshift('q')
-strings.splice(2,0,'batman')
-strings.shift()
+strings.unshift('q') // 0(n)
+strings.splice(2,0,'batman') // 0(n)
+strings.shift() // 0(n)
 strings.shift()
 console.log(strings)
+
