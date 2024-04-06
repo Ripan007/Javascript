@@ -134,3 +134,5 @@ checkWinner(scoreDolphins, scoreKoalas)
 
 
 */
+
+console.log('welcome')
