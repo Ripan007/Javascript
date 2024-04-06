@@ -135,3 +135,12 @@ checkWinner(scoreDolphins, scoreKoalas)
 
 */
 
+const strings = ['a','b','c','d'];
+strings.push('e');
+strings.pop()
+strings.pop()
+strings.unshift('q')
+strings.splice(2,0,'batman')
+strings.shift()
+strings.shift()
+console.log(strings)
