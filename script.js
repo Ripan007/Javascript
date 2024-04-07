@@ -145,5 +145,16 @@ strings.shift() // 0(n)
 strings.shift()
 console.log(strings)
 
+class player{
+  constructor(name,type){
+    this.name = name;
+this.type = type
+  }
+  introduce(){
+    console.log(`Hi i am ${this.name} ,hi i am of type ${this.type}`)
+  }
+}
 
+
+player('rajiv','healer')
 
