@@ -14,3 +14,6 @@ return   this.length
 }
 
 const newArray = new MyArray()
+newArray.push('hi');
+newArray.push('gopi')
+console.log(newArray)
