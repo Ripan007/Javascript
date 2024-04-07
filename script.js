@@ -14,5 +14,9 @@ function reverse(str) {
 function reverse2(str) {
   return str.split('').reverse().join('')
 }
+
+const reverse3 = (str) => str.split('').reverse().join('')
 const rever = reverse2('i am  ripan')
 console.log(rever)
+
+console.log('show the  result', reverse3('i am  ripan'))
