@@ -1,14 +1,10 @@
 function reverse(str) {
   if (!str || str.length < 2 || typeof str !== 'string') {
-    return 'hmm that  is not good'
+    console.log('hmm that is not good')
   }
-  const backwards = []
+  const backward = []
   const totalItems = str.length - 1
   for (let i = totalItems; i >= 0; i--) {
-    backwards.push(str[i])
+    backward.push(str[i])
   }
-  console.log(backwards)
-  return backwards.join('')
 }
-
-reverse('hi my name is ripan')
