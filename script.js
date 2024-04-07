@@ -145,3 +145,5 @@ strings.shift() // 0(n)
 strings.shift()
 console.log(strings)
 
+
+
