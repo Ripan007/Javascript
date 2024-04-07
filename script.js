@@ -26,7 +26,7 @@ shiftItems(index){
 for(let i=0;i<this.length  -1;i++){
 
 }
-this.data[i] =
+this.data[i] = this.data[i+1]
 
 }
 }
