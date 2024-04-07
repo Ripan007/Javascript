@@ -6,7 +6,11 @@ this.data = {}
 get(index){
 return this.data[index]
 }
+push(item){
+this.data[this.length ] = item;
+this.length++;
+return   this.length
+}
 }
 
 const newArray = new MyArray()
-console.log(newArray.get('1'))
