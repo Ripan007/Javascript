@@ -12,7 +12,7 @@ function reverse(str) {
 }
 
 function reverse2(str) {
-  return str.split('').reverse().join()
+  return str.split('').reverse().join('')
 }
-const reverse = reverse2('i am  ripan')
-console.log(reverse)
+const rever = reverse2('i am  ripan')
+console.log(rever)
