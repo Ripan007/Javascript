@@ -3,7 +3,7 @@ function reverse(str) {
     console.log('hmm it is not good')
   }
   const backward = []
-  const totalItems = str.lenght - 1
+  const totalItems = str.length - 1
   for (let i = totalItems; i >= 0; i--) {
     backward.push(str[i])
   }
