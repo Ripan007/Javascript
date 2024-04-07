@@ -7,4 +7,8 @@ function reverse(str) {
   for (let i = totalItems; i >= 0; i--) {
     backward.push(str[i])
   }
+  console.log(backward)
+  return backward.join('')
 }
+
+reverse('i am ripan')
