@@ -145,7 +145,7 @@ strings.shift() // 0(n)
 strings.shift()
 console.log(strings)
 
-class player{
+class Player{
   constructor(name,type){
     this.name = name;
 this.type = type
@@ -156,5 +156,5 @@ this.type = type
 }
 
 
-player('rajiv','healer')
 
+Player('jjj','jjjj')
