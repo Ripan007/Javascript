@@ -11,4 +11,8 @@ function reverse(str) {
   return backward.join('')
 }
 
-reverse('i am  ripan')
+function reverse2(str) {
+  return str.split('').reverse().join()
+}
+const reverse = reverse2('i am  ripan')
+console.log(reverse)
