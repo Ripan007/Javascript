@@ -23,7 +23,7 @@ this.shiftItems(index)
 
 }
 shiftItems(index){
-for(let i=0;i<this.length  -1;i++){
+for(let i=index;i<this.length-1;i++){
 
 }
 this.data[i] = this.data[i+1]
@@ -34,6 +34,7 @@ this.data[i] = this.data[i+1]
 const newArray = new MyArray()
 newArray.push('hi');
 newArray.push('gopi')
-newArray.pop()
-newArray.pop()
+// newArray.pop()
+// newArray.pop()
+newArray.delete(1)
 console.log(newArray)
