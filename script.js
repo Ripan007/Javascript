@@ -14,10 +14,12 @@ function mergeSortedArray(array1, array2) {
   while (array1Item || array2Item) {
     if (array1Item < array2Item) {
       mergedArray.push(array1Item)
-      array1Item = array1[1]
+      array1Item = array1[zi]
       i++
     } else {
       mergedArray.push(array2Item)
+      array2Item = array2[j]
+      j++
     }
   }
   return mergedArray
