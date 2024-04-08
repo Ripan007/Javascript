@@ -9,6 +9,7 @@ function mergeSortedArray(array1, array2) {
   if (array2.length === 0) {
     return array1
   }
+  while (array1Item || array2Item) {}
   return mergedArray
 }
 
