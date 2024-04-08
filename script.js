@@ -16,6 +16,8 @@ function mergeSortedArray(array1, array2) {
       mergedArray.push(array1Item)
       array1Item = array1[1]
       i++
+    } else {
+      mergedArray.push(array2Item)
     }
   }
   return mergedArray
