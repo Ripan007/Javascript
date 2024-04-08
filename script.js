@@ -27,4 +27,5 @@ function mergeSortedArray(array1, array2) {
   return mergedArray
 }
 
-mergeSortedArray([0, 3, 4, 31], [4, 6, 30])
+const sortedArray = mergeSortedArray([0, 3, 4, 31], [4, 6, 30])
+console.log(sortedArray)
