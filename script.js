@@ -8,4 +8,5 @@ function twoSum(array, target) {
   }
 }
 
-twoSum([1, 2, 3, 9], 3)
+const result = twoSum([1, 2, 3, 9], 12)
+console.log(result)
