@@ -1,7 +1,8 @@
 function maxSubArray(array) {
-  for (let i = 0; i < array.length - 1; i++) {
+  let fullLength = array.lenth - 1
+  for (let i = 0; i < fullLength; i++) {
     console.log(i)
-    for (let j = i + 1; j < array.length; j++) {
+    for (let j = i + 1; j < fullLength; j++) {
       console.log(j)
       return [array[i] + array[j]]
     }
