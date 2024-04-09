@@ -1,14 +1,10 @@
-function twoSum(array, target) {
+function maxSubArray(array) {
   for (let i = 0; i < array.length - 1; i++) {
-    console.log('i', i)
     for (let j = i + 1; j < array.length; j++) {
-      console.log('j', j)
-      if (array[i] + array[j] === target) {
-        return [i, j]
-      }
+      return [array[i] + array[j]]
     }
   }
 }
 
-const result = twoSum([1, 2, 3, 9], 12)
+const result = maxSubArray([1, 13, 3, 6])
 console.log(result)
