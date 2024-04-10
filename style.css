@@ -2,6 +2,9 @@
   background-color: black;
   height: 400px;
   width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box--1 {
@@ -9,6 +12,7 @@
   width: 100px;
   background-color: aqua;
   border: 2px solid rgb(214, 143, 22);
+  align-self: flex-start;
 }
 .box--2 {
   height: 100px;
