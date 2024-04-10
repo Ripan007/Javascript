@@ -1,6 +1,6 @@
 class HashTable {
   constructor(size) {
-    // this.data = new Array(size)[['grapes', 1000]]
+    this.data = new Array(size)
   }
 
   _hash(key) {
