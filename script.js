@@ -1,1 +1,5 @@
-console.log('welcome')
+function print() {
+  return 'flower'
+}
+
+console.log(print())
