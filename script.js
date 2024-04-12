@@ -1,9 +1,9 @@
-function a() {
-  c()
-  function c() {
-    console.log(b)
+function x() {
+  let a = 10
+  function y() {
+    console.log(a)
   }
+  y()
 }
 
-var b = 10
-a()
+x()
