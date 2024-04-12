@@ -1,8 +1,9 @@
-var n = 2
-function square(num) {
-  const ans = num * num
-  return ans
+function a() {
+  c()
+  function c() {
+    console.log(b)
+  }
 }
 
-const square2 = square(n)
-const square4 = square(4)
+var b = 10
+a()
