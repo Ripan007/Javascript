@@ -8,7 +8,7 @@ const calculateArea = function (radius) {
   return output
 }
 
-console.log(calculateArea(radius))
+console.log('calculateArea', calculateArea(radius))
 
 const calculateCircumference = function (radius) {
   const output = []
@@ -17,7 +17,7 @@ const calculateCircumference = function (radius) {
   }
   return output
 }
-console.log(calculateCircumference(radius))
+console.log('calculateCircumference', calculateCircumference(radius))
 
 const calaculateDiameter = function (radius) {
   const output = []
@@ -27,4 +27,4 @@ const calaculateDiameter = function (radius) {
   return output
 }
 
-console.log(calaculateDiameter(radius))
+console.log('calculateDiameter', calaculateDiameter(radius))
