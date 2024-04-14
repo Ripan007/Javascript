@@ -18,3 +18,13 @@ const calculateCircumference = function (radius) {
   return output
 }
 console.log(calculateCircumference(radius))
+
+const calaculateDiameter = function (radius) {
+  const output = []
+  for (let i = 0; i < radius.length; i++) {
+    output.push(2 * radius[i])
+  }
+  return output
+}
+
+console.log(calaculateDiameter(radius))
