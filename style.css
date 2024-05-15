@@ -1,3 +1,4 @@
-.huge {
-    font-size: 10rem;
+.container {
+    display: flex;
+    gap: 20px;
 }
