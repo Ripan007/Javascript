@@ -7,3 +7,11 @@ for (let i = 0; i < numberOfDrumButtons; i++) {
             alert('button got clicked')
         })
 }
+
+
+function add(num)
+
+function calculator(num1, num2, operator) {
+    return operator(num1,num2)
+
+}
