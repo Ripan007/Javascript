@@ -8,10 +8,24 @@ for (let i = 0; i < numberOfDrumButtons; i++) {
         })
 }
 
+function add(num1, num2) {
+    return num1 + num2
+}
 
-function add(num)
+function subtract(num1, num2) {
+    return num1 - num2
+}
+
+function multiply(num1, num2) {
+    return num1 * num2
+}
+
+function division(num1, num2) {
+    return num1 / num2
+}
 
 function calculator(num1, num2, operator) {
-    return operator(num1,num2)
-
+    return operator(num1, num2)
 }
+
+calculator(2, 3, add)
