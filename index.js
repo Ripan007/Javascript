@@ -14,3 +14,5 @@ image2.setAttribute('src', randomImageSource)
 if (randomNumber1 === 6) {
     document.querySelector('h1').textContent = 'both are winning'
 }
+
+//  randomNumber , diceImage ,imageSource
