@@ -1,18 +1,24 @@
-const randomNumber1 = Math.floor(Math.random() * 6) + 1
-const randomDiceImage = 'dice' + randomNumber1 + '.png'
+// first dice
+const randomNumber = Math.floor(Math.random() * 6) + 1
+const randomDiceImage = 'dice' + randomNumber + '.png'
 const randomImageSource = './images/' + randomDiceImage
 
-// this one is for  first image
 let image1 = document.querySelectorAll('img')[0]
 image1.setAttribute('src', randomImageSource)
 
-//  this one is for second image
+//  second dice
+
+const randomNumber2 = Math.floor(Math.random() * 6) + 1
+const randomDiceImage2 = 'dice' + randomNumber + '.png'
+const randomImageSource2 = './images/' + randomDiceImage
 
 let image2 = document.querySelectorAll('img')[1]
 image2.setAttribute('src', randomImageSource)
 
-if (randomNumber1 === 6) {
-    document.querySelector('h1').textContent = 'both are winning'
+if (randomNumber > randomNumber2) {
+    document.querySelector('h1').textContent = 'randomNumber 1  win'
+} else if (randomNumber2 > randomNumber) {
+    document.querySelector('h1').textContent = 'randomNumber 2  win'
+} else {
+    document.querySelector('h1').textContent = 'no   buddy win'
 }
-
-//  randomNumber , diceImage ,imageSource
