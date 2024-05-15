@@ -9,11 +9,11 @@ image1.setAttribute('src', randomImageSource)
 //  second dice
 
 const randomNumber2 = Math.floor(Math.random() * 6) + 1
-const randomDiceImage2 = 'dice' + randomNumber + '.png'
-const randomImageSource2 = './images/' + randomDiceImage
+const randomDiceImage2 = 'dice' + randomNumber2 + '.png'
+const randomImageSource2 = './images/' + randomDiceImage2
 
 let image2 = document.querySelectorAll('img')[1]
-image2.setAttribute('src', randomImageSource)
+image2.setAttribute('src', randomImageSource2)
 
 if (randomNumber > randomNumber2) {
     document.querySelector('h1').textContent = 'randomNumber 1  win'
