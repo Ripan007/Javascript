@@ -11,4 +11,6 @@ image1.setAttribute('src', randomImageSource)
 let image2 = document.querySelectorAll('img')[1]
 image2.setAttribute('src', randomImageSource)
 
-console.log(image1)
+if (randomNumber1 === 6) {
+    document.querySelector('h1').textContent = 'both are winning'
+}
