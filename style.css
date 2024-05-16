@@ -77,5 +77,5 @@ footer {
     text-align: center;
     margin: 10px;
     background-color: white;
-    cursor: url('./images/kick.png'), auto;
+    cursor: pointer;
 }
