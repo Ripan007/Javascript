@@ -7,10 +7,12 @@ for (let i = 0; i < numberOfDrumButtons; i++) {
             const buttonInnerHtml = this.innerHTML
             switch (buttonInnerHtml) {
                 case w:
-                    let tom1: break
+                    let tom1 = new Audio('./sounds/tom1.mp3')
+                    tom1.play()
+                    break
 
                 default:
-                    break
+                    console.log(buttonInnerHtml)
             }
         })
 }
