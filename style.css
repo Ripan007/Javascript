@@ -63,7 +63,7 @@ footer {
 
 .drum {
     outline: none;
-    border: 10px solid #404b69;
+    border: 5px solid #404b69;
     font-size: 5rem;
     font-family: 'Arvo', cursive;
     line-height: 2;
@@ -72,9 +72,10 @@ footer {
     text-shadow: 3px 0 #dbedf3;
     border-radius: 50%;
     display: inline-block;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     text-align: center;
     margin: 10px;
     background-color: white;
+    cursor: pointer;
 }
