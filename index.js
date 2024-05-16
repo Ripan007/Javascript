@@ -59,13 +59,13 @@ const bellBoy = function (
     this.yearsOfExperience = yearsOfExperience
     this.houseKeeperRepotire = houseKeeperRepotire
     this.cleaningRepotire = function () {
-        if (true) {
+        if (cleaningRepotire) {
             alert('house is cleaned')
         }
     }
 }
 
 const bellBoy1 = new bellBoy('raju', 12, ['batching', 'basthrom'], true)
-bellBoy1()
+bellBoy1.cleaningRepotire()
 
 // console.log(houseKeeper1.yearsOfExperience)
