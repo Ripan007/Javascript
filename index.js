@@ -40,7 +40,3 @@ for (let i = 0; i < numberOfDrumButtons; i++) {
             }
         })
 }
-
-/*var video = new Audio('./sounds/crash.mp3')
-video.play()
-*/
