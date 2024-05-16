@@ -4,7 +4,7 @@ for (let i = 0; i < numberOfDrumButtons; i++) {
     document
         .querySelectorAll('.drum')
         [i].addEventListener('click', function () {
-            console.log((this.textContent.style.color = 'red'))
+            this.style.color = 'red'
         })
 }
 
