@@ -7,6 +7,7 @@ for (let i = 0; i < numberOfDrumButtons; i++) {
         [i].addEventListener('click', function () {
             const buttonInnerHtml = this.innerHTML
             makeSound(buttonInnerHtml)
+            buttonAnimation(buttonInnerHtml)
         })
 }
 
@@ -14,6 +15,7 @@ for (let i = 0; i < numberOfDrumButtons; i++) {
 
 document.addEventListener('keypress', function (event) {
     makeSound(event.key)
+    buttonAnimation(event.key)
 })
 
 function makeSound(key) {
