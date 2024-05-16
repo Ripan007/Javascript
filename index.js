@@ -58,6 +58,7 @@ const bellBoy = function (name, yearsOfExperience, houseKeeperRepotire) {
 
 const bellBoy1 = new bellBoy('raju', 12, ['batching', 'basthrom'])
 const bellBoy2 = new bellBoy('kopi', 2, ['batching', 'basthrom', 'loundary'])
-console.log('bellBoy1')
+console.log(`bellBoy1 data :  ${bellBoy1}`)
+console.log(`bellBoy2 data :  ${bellBoy2}`)
 
 // console.log(houseKeeper1.yearsOfExperience)
