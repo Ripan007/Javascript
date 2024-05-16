@@ -40,3 +40,11 @@ for (let i = 0; i < numberOfDrumButtons; i++) {
             }
         })
 }
+
+const houseKeeper1 = {
+    yearsOfExperience: 12,
+    name: 'raju',
+    houseKeeperRepotire: ['bathroom', 'kitchen'],
+}
+
+console.log(houseKeeper1.yearsOfExperience)
