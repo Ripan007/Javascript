@@ -77,6 +77,5 @@ footer {
     text-align: center;
     margin: 10px;
     background-color: white;
-    /* cursor: pointer; */
-    cursor: url('http://upload.wikimedia.org/wikipedia/commons/d/de/POL_apple.jpg');
+    cursor: pointer;
 }
