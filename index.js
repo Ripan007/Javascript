@@ -40,32 +40,3 @@ for (let i = 0; i < numberOfDrumButtons; i++) {
             }
         })
 }
-
-// const houseKeeper1 = {
-//     yearsOfExperience: 12,
-//     name: 'raju',
-//     houseKeeperRepotire: ['bathroom', 'kitchen'],
-// }
-
-// create a constructor => avoid reputation
-
-const bellBoy = function (
-    name,
-    yearsOfExperience,
-    houseKeeperRepotire,
-    cleaningRepotire
-) {
-    this.name = name
-    this.yearsOfExperience = yearsOfExperience
-    this.houseKeeperRepotire = houseKeeperRepotire
-    this.cleaningRepotire = function () {
-        if (cleaningRepotire) {
-            alert('house is cleaned')
-        }
-    }
-}
-
-const bellBoy1 = new bellBoy('raju', 12, ['batching', 'basthrom'], true)
-bellBoy1.cleaningRepotire()
-
-// console.log(houseKeeper1.yearsOfExperience)
