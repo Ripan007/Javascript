@@ -49,16 +49,18 @@ for (let i = 0; i < numberOfDrumButtons; i++) {
 
 // create a constructor => avoid reputation
 
-const bellBoy = function (name, yearsOfExperience, houseKeeperRepotire) {
+const bellBoy = function (
+    name,
+    yearsOfExperience,
+    houseKeeperRepotire,
+    cleaningRepotire
+) {
     this.name = name
     this.yearsOfExperience = yearsOfExperience
     this.houseKeeperRepotire = houseKeeperRepotire
     return [name, yearsOfExperience, houseKeeperRepotire]
 }
 
-const bellBoy1 = new bellBoy('raju', 12, ['batching', 'basthrom'])
-const bellBoy2 = new bellBoy('kopi', 2, ['batching', 'basthrom', 'loundary'])
-console.log(`bellBoy1 data :  ${bellBoy1}`)
-console.log(`bellBoy2 data :  ${bellBoy2}`)
+const bellBoy1 = new bellBoy('raju', 12, ['batching', 'basthrom'], true)
 
 // console.log(houseKeeper1.yearsOfExperience)
