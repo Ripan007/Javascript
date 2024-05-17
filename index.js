@@ -5,6 +5,16 @@ const restaurant = {
     categories: ['indian', 'chinease', 'italian'],
     starterMenu: ['dal', 'rice', 'vegggie'],
     mainMenu: ['chicken', 'fish'],
+    openingHours: {
+        mon: {
+            open: 9,
+            close: 7,
+        },
+        thu: {
+            open: 10,
+            close: 9,
+        },
+    },
     order: function (starterIndex, mainIndex) {
         return [this.starterMenu[starterIndex], [this.mainMenu[mainIndex]]]
     },
