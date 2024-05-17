@@ -7,3 +7,5 @@ function calAge(birthyear) {
 const firstName = 'ripan'
 
 calAge()
+
+//  you are 46 , born in
