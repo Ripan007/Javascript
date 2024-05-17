@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 const restaurant = {
     name: 'bhaba  ka  dhaba',
     location: 'delhi chourha',
@@ -16,14 +16,17 @@ const restaurant = {
         },
     },
     order: function (starterIndex, mainIndex) {
-        return [this.starterMenu[starterIndex], [this.mainMenu[mainIndex]]]
+        return [this.starterMenu[starterIndex], [this.mainMenu[mainIndex]]];
     },
-}
+};
 
 /*const [starterCourse, mainCourse] = restaurant.order(0, 1)
 console.log(`starterCourse : ${starterCourse}`)
 console.log(`mainCourse : ${mainCourse}`)*/
 
-let a = 10
-let b = 20
-let
+let a = 10;
+let b = 20;
+const obj = { a: 20, b: 30, c: 40 };
+({ a, b } = obj);
+
+console.log(a, b);
