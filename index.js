@@ -7,3 +7,8 @@ const ripan = {
     job: 'programmer',
     friend: ['raju', 'gopi', 'rajiv'],
 }
+
+const interestedIn = prompt(
+    'what you want  to interested to know about ripan , about is work  life  and more'
+)
+console.log(ripan[interestedIn])
