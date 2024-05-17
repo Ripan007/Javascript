@@ -2,7 +2,7 @@ function calAge(birthyear) {
     // console.log(`name is ${firstName}`)
     const age = 2024 - birthyear
     function printAge() {
-        const output =
+        const output = `you are ${age},`
     }
     return age
 }
