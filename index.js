@@ -16,10 +16,11 @@ const john = {
     mass: 92,
     height: 1.95,
     calcBMI: function () {
-        this.bmi = mass / (height * height)
+        this.bmi = this.mass / (this.height * this.height)
         return this.bmi
     },
 }
 
-const markBmi = mark.calcBMI()
-console.log(markBmi)
+const markBmi = Math.floor(mark.calcBMI())
+const johnBmi = Math.floor(john.calcBMI())
+console.log(markBmi, johnBmi)
