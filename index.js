@@ -13,5 +13,5 @@ const me = {
 
 const friend = me
 me.age = 20
-console.log(`object me age is ${me}`)
-console.log(`object friend age is ${friend}`)
+console.log(`object me age is ${me.age}`)
+console.log(`object friend age is ${friend.age}`)
