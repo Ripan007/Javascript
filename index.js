@@ -6,7 +6,3 @@ const restaurant = {
     starterMenu: ['dal', 'rice', 'vegggie'],
     mainMenu: ['chicken', 'fish'],
 }
-
-let [main, , secondary] = restaurant.categories
-console.log(main)
-console.log(secondary)
