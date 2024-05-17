@@ -18,7 +18,7 @@ const restaurant = {
     order: function (starterIndex, mainIndex) {
         return [this.starterMenu[starterIndex], [this.mainMenu[mainIndex]]];
     },
-    orderDelivery: function ({ starterIndex, mainIndex, time, address }) {
+    orderDelivery: function ({ starterIndex = 1, mainIndex, time, address }) {
         console.log(this);
         console.log(
             `ordered delivered was ${this.starterMenu[starterIndex]}, ${this.mainMenu[mainIndex]}at ${time} and the location was ${address}`
@@ -33,4 +33,8 @@ restaurant.orderDelivery({
     address: 'hutbay',
 });
 
-s
+restaurant.orderDelivery({
+    mainIndex: 1,
+    time: '6:0',
+    address: 'rkpur',
+});
