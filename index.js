@@ -4,7 +4,7 @@ const ripan = {
     birthYear: 1999,
     job: 'programmer',
     friends: ['first', 'second', 'third'],
-    hasDriverLicense: true,
+    hasDriverLicense: false,
     calAge: function () {
         // console.log(this)
         this.age = 2024 - this.birthYear
@@ -14,8 +14,9 @@ const ripan = {
 
 //  ripan is a 29-year old programmer, and he has driver"s a:not license
 
+ripan.calAge()
 console.log(
-    `${ripan.firstName} is  a ${ripan[this.age]}-year old ${
-        ripan.job
-    } , and he has ${ripan.hasDriverLicense ? 'a' : 'not}'} license`
+    `${ripan.firstName} is  a ${ripan.age}-year old ${ripan.job} , and he has ${
+        ripan.hasDriverLicense ? 'a' : 'not'
+    } license`
 )
