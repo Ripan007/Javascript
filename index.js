@@ -10,4 +10,8 @@ const ripan = {
     },
 }
 
+//  dot notation
+
 console.log(ripan.calAge(1995))
+//  bracket notation
+console.log(ripan['calAge'](1990))
