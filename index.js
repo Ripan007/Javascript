@@ -12,4 +12,4 @@ const ripan = {
     },
 }
 
-console.log(ripan.age)
+//  ripan is a 29-year old programmer, and he has
