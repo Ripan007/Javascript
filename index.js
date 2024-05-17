@@ -16,4 +16,4 @@ function calAge(birthyear) {
 }
 
 const firstName = 'ripan'
-calAge(1991)
+calAge(1950)
