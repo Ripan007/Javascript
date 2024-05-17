@@ -4,11 +4,12 @@ function calAge(birthyear) {
     // console.log(firstName)
 
     function printAge() {
-        const output = ''
+        const output = `you are ${age} , born in ${birthyear}`
+        console.log(output)
     }
+    printAge()
     return age
 }
 
 const firstName = 'ripan'
-
-console.log(calAge(1991))
+calAge(1991)
