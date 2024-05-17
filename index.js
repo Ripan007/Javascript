@@ -12,4 +12,4 @@ const ripan = {
     },
 }
 
-//  ripan is a 29-year old programmer, and he has
+//  ripan is a 29-year old programmer, and he has driver"s a:not license
