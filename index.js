@@ -25,14 +25,11 @@ const restaurant = {
         );
     },
     orderPasta: function (ing1, ing2, ing3) {
-        console.log(`pasta with ingredient with ${ing1},${ing2},${ing3}`);
+        console.log(`pasta with ingredient ${ing1},${ing2},${ing3}`);
     },
 };
 
-const ingredients = [
-    prompt('pasta with ingredient 1'),
-    prompt('pasta ingredient 2'),
-    prompt('pasta with ingredient 2'),
-];
+//  create new restaurant
 
-restaurant.orderPasta(...ingredients);
+const newRestaurant = { founder: 'jatu lal', ...restaurant };
+console.log(newRestaurant);
