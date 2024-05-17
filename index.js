@@ -11,4 +11,11 @@ const ripan = {
 const interestedIn = prompt(
     'what you want  to interested to know about ripan , about is work  life  and more'
 )
-console.log(ripan[interestedIn])
+
+if (ripan[interestedIn]) {
+    console.log(`show the outcome ${ripan[interestedIn]}`)
+} else {
+    console.log(
+        'choose from the above  data ,choose the  valid option which are available'
+    )
+}
