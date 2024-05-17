@@ -29,17 +29,4 @@ const restaurant = {
     },
 };
 
-/*
-restaurant.orderDelivery({
-    starterIndex: 0,
-    mainIndex: 0,
-    time: '12:00',
-    address: 'hutbay',
-});
-
-restaurant.orderDelivery({
-    mainIndex: 1,
-    time: '6:0',
-    address: 'rkpur',
-});
-*/
+const ingredients = [prompt('pasta with ingredient 1'), prompt()];
