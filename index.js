@@ -28,8 +28,3 @@ const restaurant = {
         console.log(`pasta with ingredient ${ing1},${ing2},${ing3}`);
     },
 };
-
-//  create new restaurant
-
-const newRestaurant = { founder: 'jatu lal', ...restaurant };
-console.log(newRestaurant);
