@@ -5,13 +5,12 @@ const ripan = {
     job: 'programmer',
     friends: ['first', 'second', 'third'],
     hasDriverLicense: true,
-    calAge: function (birthYear) {
-        return 2024 - birthYear
+    calAge: function () {
+        this.age = 2024 - this.birthYear
+        return this.age
     },
 }
 
 //  dot notation
 
-console.log(ripan.calAge(1995))
-//  bracket notation
-console.log(ripan['calAge'](1990))
+console.log(ripan.age)
