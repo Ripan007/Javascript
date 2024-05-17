@@ -8,5 +8,5 @@ const restaurant = {
 }
 
 const [first, , third] = restaurant.categories
-console.log(first)
-console.log(third)
+
+const temp = first
