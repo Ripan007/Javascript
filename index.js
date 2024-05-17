@@ -8,8 +8,3 @@ const restaurant = {
 }
 
 let [first, , third] = restaurant.categories
-
-let temp = first
-first = third
-third = temp
-console.log(first, third)
