@@ -30,7 +30,7 @@ const restaurant = {
 };
 
 const [dal, , vegie, ...otherFood] = [
-    ...restaurant.starterMenu,
     ...restaurant.mainMenu,
+    ...restaurant.starterMenu,
 ];
 console.log(dal, vegie, otherFood);
