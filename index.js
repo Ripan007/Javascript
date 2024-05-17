@@ -1,4 +1,9 @@
 function calAge(birthyear) {
-    const age = 2024 - this.birthyear
+    console.log(firstName)
+    const age = 2024 - birthyear
     return age
 }
+
+const firstName = 'ripan'
+
+calAge()
