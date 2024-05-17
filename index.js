@@ -9,6 +9,10 @@ function calAge(birthyear) {
             var milleneal = true
             const str = `oh, you are a milleneal,  ${firstName}`
             console.log(str)
+            function add(a, b) {
+                return a + b
+            }
+            console.log(add(10, 10))
         }
         console.log(milleneal)
     }
