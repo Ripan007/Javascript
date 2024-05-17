@@ -7,9 +7,4 @@ const restaurant = {
     mainMenu: ['chicken', 'fish'],
 }
 
-let [main, , secondary] = restaurant.categories
-
-const temp = main
-main = secondary
-secondary = temp
-console.log(main, secondary)
+let [main,,secondary]
