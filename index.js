@@ -29,4 +29,10 @@ const restaurant = {
     },
 };
 
-const ingredients = [prompt('pasta with ingredient 1'), prompt()];
+const ingredients = [
+    prompt('pasta with ingredient 1'),
+    prompt('pasta ingredient 2'),
+    prompt('pasta with ingredient 2'),
+];
+
+restaurant.orderPasta(...ingredients);
