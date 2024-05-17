@@ -8,3 +8,6 @@ const jessicaCopy = Object.assign({}, jessica)
 jessicaCopy.lastName = 'katrin'
 console.log(`old jessica data is ${jessica.lastName}`)
 console.log(`jessicaCopy data is ${jessicaCopy.lastName}`)
+
+const jess = Object.assign({}, name)
+console.log(jess)
