@@ -13,3 +13,9 @@ const ripan = {
 }
 
 //  ripan is a 29-year old programmer, and he has driver"s a:not license
+
+console.log(
+    `${ripan.firstName} is  a ${ripan[this.age]}-year old ${
+        ripan.job
+    } , and he has ${ripan.hasDriverLicense ? 'a' : 'not}'} license`
+)
