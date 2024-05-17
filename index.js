@@ -14,6 +14,10 @@ const restaurant = {
             open: 10,
             close: 9,
         },
+        sat: {
+            open: 2,
+            close: 9,
+        },
     },
     order: function (starterIndex, mainIndex) {
         return [this.starterMenu[starterIndex], [this.mainMenu[mainIndex]]];
@@ -28,9 +32,3 @@ const restaurant = {
         console.log(`pasta with ingredient ${ing1},${ing2},${ing3}`);
     },
 };
-
-const [dal, , vegie, ...otherFood] = [
-    ...restaurant.mainMenu,
-    ...restaurant.starterMenu,
-];
-console.log(dal, vegie, otherFood);
