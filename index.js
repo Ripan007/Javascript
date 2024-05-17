@@ -26,6 +26,7 @@ const restaurant = {
     },
 };
 
+/*
 restaurant.orderDelivery({
     starterIndex: 0,
     mainIndex: 0,
@@ -38,3 +39,4 @@ restaurant.orderDelivery({
     time: '6:0',
     address: 'rkpur',
 });
+*/
