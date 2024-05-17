@@ -7,3 +7,5 @@ const ripan = {
     job: 'programmer',
     friend: ['raju', 'gopi', 'rajiv'],
 }
+
+console.log(ripan.firstName)
