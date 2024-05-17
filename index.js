@@ -27,4 +27,7 @@ const restaurant = {
 
 orderDelivery.restaurant = {
     starterIndex: 0,
+    mainIndex: 0,
+    time: '10:01',
+    address: 'hutbay',
 };
