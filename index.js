@@ -10,13 +10,16 @@ const ripan = {
         this.age = 2024 - this.birthYear
         return this.age
     },
+    getSummary: function () {
+        console.log(
+            `${ripan.firstName} is  a ${ripan.age}-year old ${
+                ripan.job
+            } , and he has ${ripan.hasDriverLicense ? 'a' : 'not'} license`
+        )
+    },
 }
 
 //  ripan is a 29-year old programmer, and he has driver"s a:not license
 
 ripan.calAge()
-console.log(
-    `${ripan.firstName} is  a ${ripan.age}-year old ${ripan.job} , and he has ${
-        ripan.hasDriverLicense ? 'a' : 'not'
-    } license`
-)
+ripan.getSummary()
