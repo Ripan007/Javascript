@@ -7,6 +7,9 @@ const restaurant = {
     mainMenu: ['chicken', 'fish'],
 }
 
-const [first, , third] = restaurant.categories
+let [first, , third] = restaurant.categories
 
-const temp = first
+let temp = first
+first = third
+third = temp
+console.log(first, third)
