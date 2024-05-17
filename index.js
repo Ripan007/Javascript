@@ -1,7 +1,11 @@
 'use strict'
 function calAge(birthyear) {
     const age = 2024 - birthyear
-    console.log(firstName)
+    // console.log(firstName)
+
+    function printAge() {
+        const output = ''
+    }
     return age
 }
 
