@@ -1,13 +1,12 @@
-const jessica = {
-    firstName: 'jessica',
-    lastName: 'williams',
-    age: 19,
+'use strict'
+const restaurant = {
+    name: 'bhaba  ka  dhaba',
+    location: 'delhi chourha',
+    categories: ['indian', 'chinease', 'italian'],
+    starterMenu: ['dal', 'rice', 'vegggie'],
+    mainMenu: ['chicken', 'fish'],
 }
 
-const jessicaCopy = Object.assign({}, jessica)
-jessicaCopy.lastName = 'katrin'
-console.log(`old jessica data is ${jessica.lastName}`)
-console.log(`jessicaCopy data is ${jessicaCopy.lastName}`)
-
-const jess = Object.assign({}, name)
-console.log(jess)
+const [first, , third] = restaurant.categories
+console.log(first)
+console.log(third)
