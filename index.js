@@ -21,7 +21,7 @@ const restaurant = {
     orderDelivery: function ({ starterIndex = 1, mainIndex, time, address }) {
         console.log(this);
         console.log(
-            `ordered delivered was ${this.starterMenu[starterIndex]}, ${this.mainMenu[mainIndex]}at ${time} and the location was ${address}`
+            `ordered delivered was ${this.starterMenu[starterIndex]}, ${this.mainMenu[mainIndex]} at ${time} and the location was ${address}`
         );
     },
 };
