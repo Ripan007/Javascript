@@ -31,4 +31,10 @@ const restaurant = {
     orderPasta: function (ing1, ing2, ing3) {
         console.log(`pasta with ingredient ${ing1},${ing2},${ing3}`);
     },
+    orderPizza: function (mainIngredients, ...restIngredients) {
+        console.log('main', mainIngredients);
+        console.log('rest', restIngredients);
+    },
 };
+
+restaurant.orderPizza('onion', 'cheese', 'rice');
