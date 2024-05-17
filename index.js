@@ -1,10 +1,8 @@
 // "John Smith's BMI (28.3) is higher than Mark Miller's (23.9)!"
 /* Write your code below. Good luck! 🙂 */
 
-const e = require('express')
-
 const mark = {
-    fullName: 'mark',
+    fullName: 'mark miller',
     mass: 78,
     height: 1.69,
     calcBMI: function () {
@@ -14,7 +12,7 @@ const mark = {
 }
 
 const john = {
-    fullName: 'john',
+    fullName: 'john smith',
     mass: 92,
     height: 1.95,
     calcBMI: function () {
@@ -28,8 +26,11 @@ const johnBmi = Math.floor(john.calcBMI())
 console.log(markBmi, johnBmi)
 
 if (markBmi > johnBmi) {
-    console.log()
+    console.log(`${mark.fullName}' BMI  (${markBmi})} is higher than ${john.fullName} (${johnBmi})
+}`)
 } else if (johnBmi > markBmi) {
-    console.log('')
+    console.log(`${john.fullName}' BMI  (${johnBmi})} is higher than ${mark.fullName} (${markBmi})
+}`)
 } else {
+    console.log('no own wins')
 }
