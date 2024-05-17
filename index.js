@@ -40,7 +40,3 @@ restaurant.orderDelivery({
     address: 'rkpur',
 });
 */
-
-const newMenu = [...restaurant.mainMenu, 'chickenkorma'];
-const menu = [...newMenu, ...restaurant.mainMenu];
-console.log(menu);
