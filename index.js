@@ -3,7 +3,7 @@ const restaurant = {
     name: 'bhaba  ka  dhaba',
     location: 'delhi chourha',
     categories: ['indian', 'chinease', 'italian'],
-    starterMenu: ['dal', 'rice', 'vegggie'],
+    starterMenu: ['dal', 'rice', 'vegie'],
     mainMenu: ['chicken', 'fish'],
     openingHours: {
         mon: {
@@ -28,3 +28,9 @@ const restaurant = {
         console.log(`pasta with ingredient ${ing1},${ing2},${ing3}`);
     },
 };
+
+const [dal, , vegie, ...otherFood] = [
+    ...restaurant.starterMenu,
+    ...restaurant.mainMenu,
+];
+console.log(dal, vegie, otherFood);
