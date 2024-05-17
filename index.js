@@ -6,7 +6,7 @@ function calAge(birthyear) {
     function printAge() {
         const output = `you are ${age} , born in ${birthyear}`
         console.log(output)
-        if (birthyear >= 1981 && birthyear <= 1961) {
+        if (birthyear >= 1981 && birthyear <= 1996) {
             const str = `oh, you are a milleneal,  ${firstName}`
             console.log(str)
         }
@@ -16,4 +16,4 @@ function calAge(birthyear) {
 }
 
 const firstName = 'ripan'
-calAge(1950)
+calAge(1991)
