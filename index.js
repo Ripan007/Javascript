@@ -6,6 +6,7 @@ const ripan = {
     friends: ['first', 'second', 'third'],
     hasDriverLicense: true,
     calAge: function () {
+        console.log(this)
         this.age = 2024 - this.birthYear
         return this.age
     },
