@@ -9,3 +9,5 @@ const ripan = {
 }
 
 console.log(ripan.friend[ripan.friend.length - 2])
+
+//  because of non focus , discontunity i   could not able to achieve wha
