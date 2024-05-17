@@ -19,3 +19,7 @@ if (ripan[interestedIn]) {
         'choose from the above  data ,choose the  valid option which are available'
     )
 }
+
+ripan.loaction = 'portblair'
+ripan.twitter = '@ripan01'
+console.log(ripan)
