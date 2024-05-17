@@ -20,6 +20,9 @@ const restaurant = {
     },
 }
 
-const [starterCourse, mainCourse] = restaurant.order(0, 1)
+/*const [starterCourse, mainCourse] = restaurant.order(0, 1)
 console.log(`starterCourse : ${starterCourse}`)
-console.log(`mainCourse : ${mainCourse}`)
+console.log(`mainCourse : ${mainCourse}`)*/
+
+const { name: restaurantName } = restaurant
+console.log(restaurantName)
