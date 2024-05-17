@@ -24,3 +24,7 @@ const restaurant = {
         );
     },
 };
+
+orderDelivery.restaurant = {
+    starterIndex: 0,
+};
