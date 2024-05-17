@@ -6,12 +6,10 @@ const ripan = {
     friends: ['first', 'second', 'third'],
     hasDriverLicense: true,
     calAge: function () {
-        console.log(this)
+        // console.log(this)
         this.age = 2024 - this.birthYear
         return this.age
     },
 }
-
-//  dot notation
 
 console.log(ripan.age)
