@@ -24,6 +24,9 @@ const restaurant = {
             `ordered delivered was ${this.starterMenu[starterIndex]}, ${this.mainMenu[mainIndex]} at ${time} and the location was ${address}`
         );
     },
+    orderPasta: function (ing1, ing2, ing3) {
+        console.log(`pasta with ingredient with ${ing1},${ing2},${ing3}`);
+    },
 };
 
 /*
