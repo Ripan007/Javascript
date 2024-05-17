@@ -5,4 +5,6 @@ const jessica = {
 }
 
 const jessicaCopy = Object.assign({}, jessica)
-jessicaCopy.lastName = 'KATRIN'
+jessicaCopy.lastName = 'katrin'
+console.log(`old jessica data is ${jessica.lastName}`)
+console.log(`jessicaCopy data is ${jessicaCopy.lastName}`)
