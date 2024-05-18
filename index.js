@@ -8,3 +8,10 @@ const restaurant = {
         first: 'vara',
     },
 };
+
+const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
+console.log(menu);
+
+for (let item of menu) {
+    console.log(typeof item);
+}
