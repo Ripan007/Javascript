@@ -17,5 +17,3 @@ const restaurant = {
         );
     },
 };
-
-console.log(restaurant.getSambar?.(0, 1) ?? 'method is  empty');
