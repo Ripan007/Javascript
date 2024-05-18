@@ -47,7 +47,12 @@ const allplayers = [...players1, ...players2];
 
 const playersfinal = [...players1, 'thiago', 'couthino', 'periscic'];
 
+// important part in object  retriving
 const {
     odds: { team1, x, team2 },
 } = game;
-console.log(team1);
+console.log(team1, x, team2);
+
+const printGoals = function () {};
+
+printGoals();
