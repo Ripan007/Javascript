@@ -37,4 +37,6 @@ const restaurant = {
     },
 };
 
-console.log(null && 'hello');
+if (restaurant.orderPizza) {
+    restaurant.orderPizza('cabbage', 'onion');
+}
