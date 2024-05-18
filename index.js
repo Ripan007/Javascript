@@ -39,26 +39,10 @@ const game = {
     },
 };
 
-const players1 = [...game.players[0]];
-const players2 = [...game.players[1]];
+const [players1, players2] = game.players;
+const [gk, ...fieldplayers] = players1;
+console.log(gk, fieldplayers);
+const allplayers = [...players1, ...players2];
+console.log(allplayers);
 
-// first goalKeeper
-const [x, ...others1] = players1;
-// second goalkeeper
-const [y, ...others2] = players2;
-// console.log(x, y);
-// field players
-// console.log(others1, others2);
-
-// fieldplayers data => remaining all players
-const allPlayers = [others1, others2];
-console.log(`allPlayers data:${allPlayers}`);
-
-// goalkeeper data
-const gk = [x, y];
-console.log(`goalkeeper data :${gk}`);
-
-//   added three substuite players
-
-const players1final = [...players1, 'raju', 'goal', 'mohit'];
-console.log(`playersfinal  data  : ${players1final}`);
+const playersfinal = [...players1, 'thiago', 'couthino', 'periscic'];
