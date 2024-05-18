@@ -7,5 +7,9 @@ const restaurant = {
             close: 2,
         },
     },
-    getMenu: function () {},
+    getMenu(starterIndex) {
+        console.log(`the ordered dish is ${this.mainMenu[starterIndex]}`);
+    },
 };
+
+restaurant.getMenu(1);
