@@ -1,5 +1,6 @@
+const weekdays = ['mon', 'sun'];
 const openingHours = {
-    mon: {
+    [weekdays[0]]: {
         open: 12,
         close: 2,
     },
@@ -13,3 +14,5 @@ const restaurant = {
         console.log(`the ordered dish is ${this.mainMenu[starterIndex]}`);
     },
 };
+
+console.log(restaurant.openingHours[1]);
