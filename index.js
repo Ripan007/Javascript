@@ -13,7 +13,3 @@ const restaurant = {
         console.log(`the ordered dish is ${this.mainMenu[starterIndex]}`);
     },
 };
-
-restaurant.getMenu(1);
-
-console.log(restaurant.openingHours);
