@@ -1,7 +1,3 @@
-const orderSet = new Set(['pizza', 'pizza', 'pizza', 'onion', 'guava']);
-
-console.log(orderSet);
-
-for (let item of orderSet) {
-    console.log(item);
-}
+const staff = ['cooker', 'cooker', 'lauandry'];
+const uniqueStaff = [...new Set(staff)];
+console.log(uniqueStaff);
