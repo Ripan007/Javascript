@@ -58,4 +58,5 @@ console.log(`allPlayers data:${allPlayers}`);
 const gk = [x, y];
 console.log(`goalkeeper data :${gk}`);
 
-const players1final = [...players1, ''];
+const players1final = [...players1, 'raju', 'goal', 'mohit'];
+console.log(`playersfinal  data  : ${players1final}`);
