@@ -18,5 +18,4 @@ const restaurant = {
     },
 };
 
-const user = [{ name: 'raju' }];
-console.log(user[0]?.jon ?? 'user is empty');
+console.log(restaurant.getSambar?.(0, 1) ?? 'method is  empty');
