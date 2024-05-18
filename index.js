@@ -47,8 +47,5 @@ const res2 = {
     owner: 'rani',
 };
 
-res1.numOfGuest ||= 30;
-res2.numOfGuest ||= 20;
-
+res1.owner = res1.owner && '<ANONYMOUS>';
 console.log(res1);
-console.log(res2);
