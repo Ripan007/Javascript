@@ -37,18 +37,18 @@ const restaurant = {
     },
 };
 
-
 const res1 = {
     name: 'raju',
-    numOfGuest:10
-}
+    numOfGuest: 10,
+};
 
-const const2 = {
+const res2 = {
     name: 'dhaba',
-    owner:'rani'
-}
+    owner: 'rani',
+};
 
+res1.numOfGuest = res1.numOfGuest || 30;
+res2.numOfGuest = res2.numOfGuest || 20;
 
-res1.numOfGuest = res1.numOfGuest || 10
-res2.numOfGuest = res2.numOfGuest ||
-
+console.log(res1);
+console.log(res2);
