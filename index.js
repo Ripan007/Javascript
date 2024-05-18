@@ -8,11 +8,14 @@ const openingHours = {
 
 const restaurant = {
     name: 'xxx',
+    starterMenu: ['rice', 'sormai'],
     mainMenu: ['dal', 'rice', 'brinjal'],
     openingHours,
-    getMenu(starterIndex) {
-        console.log(`the ordered dish is ${this.mainMenu[starterIndex]}`);
+    getMenu(starterIndex, mainIndex) {
+        console.log(
+            `the ordered dish is ${this.mainMenu[starterIndex]},${this.mainMenu[mainIndex]}`
+        );
     },
 };
 
-console.log(restaurant.getMenu?.(1) ?? 'method does not exist');
+console.log(restaurant.getMenu?.(0, 0) ?? 'method does not exist');
