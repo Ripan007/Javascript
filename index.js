@@ -15,4 +15,4 @@ const restaurant = {
     },
 };
 
-console.log(restaurant.openingHours[1]);
+const days = ['mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'sun'];
