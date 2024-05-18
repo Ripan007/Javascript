@@ -18,4 +18,5 @@ const restaurant = {
     },
 };
 
-console.log(restaurant.getMenu?.(0, 0) ?? 'method does not exist');
+const user = [{ job: 'programmer' }];
+console.log(user[0]?.name ?? 'user is empty');
