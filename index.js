@@ -37,6 +37,9 @@ const restaurant = {
     },
 };
 
-restaurant.numGuest = 20;
+restaurant.numGuest = 10;
 const guest1 = restaurant.numGuest ? restaurant.numGuest : 10;
 console.log(guest1);
+
+const guest2 = restaurant.numGuest || 20;
+console.log(`guest2 data ${guest2}`);
