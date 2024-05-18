@@ -46,9 +46,9 @@ const players2 = [...game.players[1]];
 const [x, ...others1] = players1;
 // second goalkeeper
 const [y, ...others2] = players2;
-console.log(x, y);
+// console.log(x, y);
 // field players
-console.log(others1, others2);
+// console.log(others1, others2);
 
 // fieldplayers data
 const fieldPlayers = [others1, others2];
@@ -56,4 +56,4 @@ console.log(`fieldPlayers data:${fieldPlayers}`);
 
 // goalkeeper data
 const gk = [x, y];
-console.log(gk);
+console.log(`goalkeeper data :${gk}`);
