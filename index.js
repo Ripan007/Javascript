@@ -1,15 +1,11 @@
 const restaurant = {
-    name: 'dhaba',
-    location: 'delhi van  vihar',
-    categories: ['indian', 'chinease', 'itilian'],
-    starterMenu: ['sweet', 'puri', 'kofta'],
-    mainMenu: ['chicken', 'potato', 'dalmakhi'],
-    dish: {
-        first: 'vara',
+    name: 'xxx',
+    mainMenu: ['dal', 'rice', 'brinjal'],
+    openingHours: {
+        mon: {
+            open: 12,
+            close: 2,
+        },
     },
+    getMenu: function () {},
 };
-
-const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
-console.log(menu);
-
-//  i want  to be comfortable in javascript
