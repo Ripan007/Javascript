@@ -50,9 +50,9 @@ const [y, ...others2] = players2;
 // field players
 // console.log(others1, others2);
 
-// fieldplayers data
-const fieldPlayers = [others1, others2];
-console.log(`fieldPlayers data:${fieldPlayers}`);
+// fieldplayers data => remaining all players
+const allPlayers = [others1, others2];
+console.log(`allPlayers data:${allPlayers}`);
 
 // goalkeeper data
 const gk = [x, y];
