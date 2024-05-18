@@ -4,6 +4,7 @@ const restaurant = {
     categories: ['indian', 'chinease', 'itilian'],
     starterMenu: ['sweet', 'puri', 'kofta'],
     mainMenu: ['chicken', 'potato', 'dalmakhi'],
+    dish: {
+        first: 'vara',
+    },
 };
-
-console.log(restaurant);
