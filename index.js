@@ -37,6 +37,18 @@ const restaurant = {
     },
 };
 
-restaurant.numGuests = 0;
-const guestCorrect = restaurant.numGuests ?? 10;
-console.log(guestCorrect);
+
+const res1 = {
+    name: 'raju',
+    numOfGuest:10
+}
+
+const const2 = {
+    name: 'dhaba',
+    owner:'rani'
+}
+
+
+res1.numOfGuest = res1.numOfGuest || 10
+res2.numOfGuest = res2.numOfGuest ||
+
