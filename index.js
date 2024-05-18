@@ -47,5 +47,5 @@ const [x, ...others1] = players1;
 // second goalkeeper
 const [y, ...others2] = players2;
 console.log(x, y);
-
+// field players
 console.log(others1, others2);
