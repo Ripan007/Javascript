@@ -57,3 +57,5 @@ console.log(`allPlayers data:${allPlayers}`);
 // goalkeeper data
 const gk = [x, y];
 console.log(`goalkeeper data :${gk}`);
+
+const players1final = [...players1, ''];
