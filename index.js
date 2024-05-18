@@ -37,5 +37,3 @@ console.log(openStr);
 for (const [day, { open, close }] of entries) {
     console.log(`on ${day} we open at  ${open}  and close at ${close}`);
 }
-
-//  dont take e your dream lightly , i
