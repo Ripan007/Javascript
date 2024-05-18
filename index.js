@@ -49,3 +49,6 @@ const [y, ...others2] = players2;
 console.log(x, y);
 // field players
 console.log(others1, others2);
+
+const fieldPlayers = [others1, others2];
+console.log(`fieldPlayers data:${fieldPlayers}`);
