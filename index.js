@@ -28,3 +28,4 @@ const restaurant = {
 
 const properties = Object.keys(openingHours);
 console.log(properties);
+let openStr = `we are  open on ${properties.length}`;
