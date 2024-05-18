@@ -41,8 +41,13 @@ const game = {
 
 const [players1, players2] = game.players;
 const [gk, ...fieldplayers] = players1;
-console.log(gk, fieldplayers);
+// console.log(gk, fieldplayers);
 const allplayers = [...players1, ...players2];
-console.log(allplayers);
+// console.log(allplayers);
 
 const playersfinal = [...players1, 'thiago', 'couthino', 'periscic'];
+
+const {
+    odds: { team1, x, team2 },
+} = game;
+console.log(team1);
