@@ -47,8 +47,8 @@ const res2 = {
     owner: 'rani',
 };
 
-res1.numOfGuest = res1.numOfGuest || 30;
-res2.numOfGuest = res2.numOfGuest || 20;
+res1.numOfGuest ||= 30;
+res2.numOfGuest ||= 20;
 
 console.log(res1);
 console.log(res2);
