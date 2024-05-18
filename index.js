@@ -48,4 +48,6 @@ const res2 = {
 };
 
 res1.owner = res1.owner && '<ANONYMOUS>';
+res2.owner = res2.owner && '<ANONYMOUS>';
 console.log(res1);
+console.log(res2);
