@@ -12,8 +12,5 @@ const restaurant = {
 const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
 console.log(menu);
 
-for (let item of menu) {
-    console.log(typeof item);
+for (let [i, el] of menu) {
 }
-
-//  i want to  perform lot  of  task , for ta
