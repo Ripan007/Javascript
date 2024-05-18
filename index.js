@@ -18,5 +18,5 @@ const restaurant = {
     },
 };
 
-const user = [{ job: 'programmer' }];
-console.log(user[0]?.name ?? 'user is empty');
+const user = [{ name: 'raju' }];
+console.log(user[0]?.jon ?? 'user is empty');
