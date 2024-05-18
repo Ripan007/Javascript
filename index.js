@@ -41,4 +41,4 @@ if (restaurant.orderPizza) {
     restaurant.orderPizza('cabbage', 'onion');
 }
 
-restaurant.orderPizza && restaurant.orderPizza('cabbage', 'onoion');
+restaurant.orderPizza && restaurant.orderPizza('cabbage', 'onion');
