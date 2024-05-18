@@ -1,6 +1,14 @@
 const weekdays = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'];
 const openingHours = {
+    [weekdays[0]]: {
+        open: 0,
+        close: 2,
+    },
     [weekdays[1]]: {
+        open: 0,
+        close: 2,
+    },
+    [weekdays[2]]: {
         open: 0,
         close: 2,
     },
@@ -17,3 +25,6 @@ const restaurant = {
         );
     },
 };
+
+const properties = Object.keys(openingHours);
+console.log(properties);
