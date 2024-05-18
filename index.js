@@ -58,5 +58,7 @@ console.log(`allPlayers data:${allPlayers}`);
 const gk = [x, y];
 console.log(`goalkeeper data :${gk}`);
 
+//   added three substuite players
+
 const players1final = [...players1, 'raju', 'goal', 'mohit'];
 console.log(`playersfinal  data  : ${players1final}`);
