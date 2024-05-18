@@ -42,6 +42,10 @@ const game = {
 const players1 = [...game.players[0]];
 const players2 = [...game.players[1]];
 
-const [x, ...others] = players1;
-console.log(x);
-console.log(others);
+// first goalKeeper
+const [x, ...others1] = players1;
+// second goalkeeper
+const [y, ...others2] = players2;
+console.log(x, y);
+
+console.log(others1, others2);
