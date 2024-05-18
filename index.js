@@ -37,4 +37,5 @@ const restaurant = {
     },
 };
 
-restaurant.orderPizza('onion', 'cheese', 'rice');
+const guest1 = restaurant.numGuest ? restaurant.numGuest : 10;
+console.log(guest1);
