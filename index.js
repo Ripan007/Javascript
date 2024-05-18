@@ -37,8 +37,6 @@ const restaurant = {
     },
 };
 
-if (restaurant.orderPizza) {
-    restaurant.orderPizza('cabbage', 'onion');
-}
-
-restaurant.orderPizza && restaurant.orderPizza('cabbage', 'onion');
+restaurant.numGuests = 0;
+const guestCorrect = restaurant.numGuests ?? 10;
+console.log(guestCorrect);
