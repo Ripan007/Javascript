@@ -12,6 +12,4 @@ const restaurant = {
 const menu = [...restaurant.starterMenu, ...restaurant.mainMenu];
 console.log(menu);
 
-for (let [i, el] of menu.entries()) {
-    console.log(`${i + 1}:${el}`);
-}
+//  i want  to be comfortable in javascript
