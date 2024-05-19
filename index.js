@@ -4,7 +4,7 @@ const capitalizeName = function (name) {
 
     for (let n of names) {
         // nameUpper.push(n[0].toUpperCase() + n.slice(1));\
-        nameUpper.push(n.replace(n[0], n[0]));
+        nameUpper.push(n.replace(n[0], n[0].toUpperCase()));
     }
     console.log(nameUpper.join(' '));
 };
