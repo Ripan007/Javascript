@@ -17,5 +17,5 @@ const checkIn = function (flightNum, passenger) {
 };
 
 checkIn(flight, jonas);
-console.log(flight);
+console.log(`flight name is : ${flight}`);
 console.log(jonas);
