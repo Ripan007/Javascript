@@ -1,4 +1,8 @@
 const vistra = {
     airline: 'vistara',
-    iatacode: 553,
+    iatacode: 'yy5',
+    bookings: [],
+    book: function (flightNum, name) {
+        console.log(`${name} booked a seat on ${flightNum}`);
+    },
 };
