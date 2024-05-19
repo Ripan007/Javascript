@@ -1,18 +1,16 @@
 'use strict';
 
-//  default parameter
-
-const bookings = [];
-const createBooking = function (flightNum, numPassenger, price = 6000) {
-    const booking = {
-        flightNum,
-        numPassenger,
-        price,
-    };
-    console.log(booking);
-    bookings.push(booking);
+const flight = 'uu34';
+const jonas = {
+    name: 'john schenwin',
+    password: 22233444,
 };
 
-createBooking('bbf', 200, 2000);
-createBooking('lll');
-createBooking('kkk', undefined, 1000);
+const checkIn = function (flightNum, passenger) {
+    flightNum = 'HTT77';
+    passenger.name = 'mr.' + passenger.name;
+    if (passenger.password === 22233444) {
+        alert('password correct');
+    } else {
+    }
+};
