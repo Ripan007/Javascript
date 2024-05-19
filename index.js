@@ -1,6 +1,6 @@
 const email = 'jonas@gmail.io';
 const loginEmail = '    Jonas@gmail.Io \n ';
 
-console.log(loginEmail);
+const correctEmail = loginEmail.toLocaleLowerCase().trim();
 
-console.log(email === loginEmail);
+console.log(email === correctEmail);
