@@ -1,12 +1,7 @@
-const capitalizeName = function (name) {
-    const names = name.split(' ');
-    const nameUpper = [];
-
-    for (let n of names) {
-        // nameUpper.push(n[0].toUpperCase() + n.slice(1));\
-        nameUpper.push(n.replace(n[0], n[0].toUpperCase()));
-    }
-    console.log(nameUpper.join(' '));
+const maskCreditCard = function (number) {
+    const str = number + '';
+    const last = str.slice(-4);
+    return last.padStart();
 };
 
-capitalizeName('ripan is awesome');
+maskCreditCard(999999999999);
