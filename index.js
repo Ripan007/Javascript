@@ -1,4 +1,10 @@
 'use strict';
 
-const createBooking = function (flightNum, numPassenger) {};
+const createBooking = function (flightNum, numPassenger, price) {
+    const booking = {
+        flightNum,
+        numPassenger,
+        price,
+    };
+};
 createBooking();
