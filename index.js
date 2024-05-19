@@ -3,7 +3,7 @@
 //  default parameter
 
 const bookings = [];
-const createBooking = function (flightNum, numPassenger = 90, price = 6000) {
+const createBooking = function (flightNum, numPassenger, price = 6000) {
     const booking = {
         flightNum,
         numPassenger,
@@ -14,5 +14,5 @@ const createBooking = function (flightNum, numPassenger = 90, price = 6000) {
 };
 
 createBooking('bbf', 200, 2000);
-createBooking('kkk');
+createBooking('lll');
 createBooking('kkk', undefined, 1000);
