@@ -14,7 +14,7 @@ document.querySelector('button').addEventListener('click', function () {
             second[0],
             second[0].toUpperCase()
         )}`;
-        // console.log(output);
+        console.log(output);
     }
 });
 
