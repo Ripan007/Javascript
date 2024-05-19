@@ -4,5 +4,4 @@ const greet = function (greeting) {
     };
 };
 
-const heyGreet = greet('hi');
-heyGreet('mohit');
+greet('hi')('mohit');
