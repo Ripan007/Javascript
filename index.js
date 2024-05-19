@@ -12,5 +12,10 @@ const checkIn = function (flightNum, passenger) {
     if (passenger.password === 22233444) {
         alert('password correct');
     } else {
+        console.log('fill up correct credentials');
     }
 };
+
+checkIn(flight, jonas);
+console.log(flight);
+console.log(jonas);
