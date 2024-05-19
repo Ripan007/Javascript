@@ -4,9 +4,9 @@ const vistra = {
     bookings: [],
     book: function (flightNum, name) {
         console.log(
-            `${name} booked a seat on ${flightNum} flight ${this.iatacode} ${flightNum}`
+            `${name} booked a seat on ${this.airline} flight ${this.iatacode} ${flightNum}`
         );
     },
 };
 
-vistra.book('jj1', 'mohit');
+vistra.book(66, 'mohit');
