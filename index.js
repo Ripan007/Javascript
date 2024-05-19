@@ -9,7 +9,7 @@ document.querySelector('button').addEventListener('click', function () {
     // console.log(rows);
     for (const row of rows) {
         const [first, second] = row.toLowerCase().trim().split('_');
-        console.log(row, first, second);
+        // console.log(row, first, second);
         const output = `${first} ${second.replace(
             second[0],
             second[0].toUpperCase()
