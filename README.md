@@ -1,3 +1,3 @@
 # Javascript
 
-## routine , curiosity
+## routine => habitual , curiosity
