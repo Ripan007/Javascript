@@ -1,3 +1,9 @@
-const [firstName, lastName] = 'ripan mondal'.split(' ');
+const capitalizeName = function (name) {
+    const names = name.split(' ');
+    const nameUpper = [];
+    for (const n of names) {
+    }
+};
 
-const newName = ['mr'];
+capitalizeName('jessica and smith devis');
+capitalizeName('jonas schmedman');
