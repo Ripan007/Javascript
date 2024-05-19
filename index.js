@@ -1,5 +1,6 @@
-const passenger = 'JOnas';
-const passengerLower = passenger.toLowerCase();
-const passengerCorrect =
-    passengerLower[0].toUpperCase() + passengerLower.slice(1);
-console.log(`passengerCorrect data :${passengerCorrect}`);
+const email = 'jonas@gmail.io';
+const loginEmail = '    Jonas@gmail.Io \n ';
+
+console.log(loginEmail);
+
+console.log(email === loginEmail);
