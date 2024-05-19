@@ -9,7 +9,7 @@ const jonas = {
 const checkIn = function (flightNum, passenger) {
     flightNum = 'HTT77';
     passenger.name = 'mr.' + passenger.name;
-    if (passenger.password === 22233444) {
+    if (passenger.password === 2223344) {
         alert('password correct');
     } else {
         console.log('fill up correct credentials');
