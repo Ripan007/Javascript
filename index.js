@@ -7,14 +7,15 @@ https://restcountries.com/v2/name/county
 const btn = document.querySelector('.btn-country');
 const countriesContainer = document.querySelector('.countries');
 
-const request = new XMLHttpRequest();
-request.open('GET', 'https://restcountries.com/v2/name/portugal');
-request.send();
+const getCountriesData = function (country) {
+    const request = new XMLHttpRequest();
+    request.open('GET', `https://restcountries.com/v2/name/${country}`);
+    request.send();
 
-request.addEventListener('load', function () {
-    const [data] = JSON.parse(request.responseText);
-    console.log(data);
-    const html = `<article class="country">
+    request.addEventListener('load', function () {
+        const [data] = JSON.parse(request.responseText);
+        console.log(data);
+        const html = `<article class="country">
                     <img src="${data.flag}" alt="" class="country__img" />
                     <div class="country__data">
                         <h3 class="country__name">${data.name}</h3>
@@ -30,5 +31,11 @@ request.addEventListener('load', function () {
                         }</p>
                     </div>
                 </article>`;
-    countriesContainer.insertAdjacentHTML('beforeend', html);
-});
+        countriesContainer.insertAdjacentHTML('beforeend', html);
+        countriesContainer.style.opacity = 1;
+    });
+};
+
+getCountriesData('portugal');
+getCountriesData('usa');
+getCountriesData('germany');
