@@ -60,3 +60,11 @@ const renderCountry = function (data, className = '') {
     countriesContainer.insertAdjacentHTML('beforeend', html);
     countriesContainer.style.opacity = 1;
 };
+
+const getCountryData = function (country) {
+    fetch(`https://restcountries.com/v2/name/${country}`).then(function (
+        response
+    ) {
+        return response.json();
+    });
+};
