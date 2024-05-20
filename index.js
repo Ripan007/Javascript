@@ -6,8 +6,8 @@ https://restcountries.com/v2/name/county
 
 const btn = document.querySelector('.btn-country');
 const countriesContainer = document.querySelector('.countries');
-const renderCountry = function (data) {
-    const html = `<article class="country">
+const renderCountry = function (data, className = '') {
+    const html = `<article class=country ${className}  >
                     <img src="${data.flag}" alt="" class="country__img" />
                     <div class="country__data">
                         <h3 class="country__name">${data.name}</h3>
@@ -48,7 +48,7 @@ const getCountriesAndNeighbour = function (country) {
         request2.addEventListener('load', function () {
             const data2 = JSON.parse(request2.responseText);
             // console.log(data2);
-            renderCountry(data2);
+            renderCountry(data2, 'neighbour');
         });
     });
 };
