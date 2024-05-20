@@ -21,7 +21,7 @@ request.addEventListener('load', function () {
                         <h4 class="country__region">${data.region}</h4>
                         <p class="country__row"><span>🧑‍🤝‍🧑</span>${data.population}</p>
                         <p class="country__row"><span>👅</span>${data.languages.name}</p>
-                        <p class="country__row"><span>💸</span>${lll}</p>
+                        <p class="country__row"><span>💸</span>${data.currencies[0].name}</p>
                     </div>
                 </article>`;
 });
