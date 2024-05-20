@@ -37,9 +37,20 @@ const getCountriesAndNeighbour = function (country) {
 
 getCountriesAndNeighbour('portugal');
 getCountriesAndNeighbour('usa');
+
+
+const getCountryData = function (country) {
+    fetch(`https://restcountries.com/v2/name/${country}`)
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (data) {
+            renderCountry(data[0]);
+        });
+};
+
 */
 
-//  modern way of fetching  data
 const renderCountry = function (data, className = '') {
     const html = `<article class="country ${className}"  >
                     <img src="${data.flag}" alt="" class="country__img" />
@@ -61,14 +72,12 @@ const renderCountry = function (data, className = '') {
     countriesContainer.style.opacity = 1;
 };
 
+// simplified way
+
 const getCountryData = function (country) {
-    fetch(`https://restcountries.com/v2/name/${country}`)
-        .then(function (response) {
-            return response.json();
-        })
-        .then(function (data) {
-            renderCountry(data[0]);
-        });
+    fetch(`https://restcountries.com/v2/name/${country}`).then(
+        (response => response.json()).then(data => renderCountry(data[0]))
+    );
 };
 
-getCountryData('portugal');
+getCountryData('bharat');
