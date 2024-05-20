@@ -14,4 +14,14 @@ request.send();
 request.addEventListener('load', function () {
     const [data] = JSON.parse(request.responseText);
     console.log(data);
+    const html = `<article class="country">
+                    <img src="" alt="" class="country__img" />
+                    <div class="country__data">
+                        <h3 class="country__name">name</h3>
+                        <h4 class="country__region">region</h4>
+                        <p class="country__row"><span>🧑‍🤝‍🧑</span>pop people</p>
+                        <p class="country__row"><span>👅</span>lang</p>
+                        <p class="country__row"><span>💸</span>cur</p>
+                    </div>
+                </article>`;
 });
