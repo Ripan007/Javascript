@@ -87,4 +87,6 @@ const getCountryData = function (country) {
         .then(data => renderCountry(data, 'neighbour'));
 };
 
-getCountryData('bharat');
+btn.addEventListener('click', function () {
+    getCountryData('portugal');
+});
