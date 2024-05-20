@@ -24,10 +24,11 @@ const renderCountry = function (data, className = '') {
                     </div>
                 </article>`;
     countriesContainer.insertAdjacentHTML('beforeend', html);
-    // countriesContainer.style.opacity = 1;
 };
 
-// simplified way
+const renderError = function (msg) {
+    countriesContainer.insertAdjacentText('beforeend', msg);
+};
 const getCountryData = function (country) {
     fetch(`https://restcountries.com/v2/name/${country}`)
         .then(response => response.json())
@@ -54,6 +55,7 @@ btn.addEventListener('click', function () {
     getCountryData('portugal');
 });
 
+getCountryData('jjjjj');
 /*
 const getCountriesAndNeighbour = function (country) {
     //  ajax call for country 1
