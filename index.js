@@ -54,4 +54,4 @@ const getCountriesAndNeighbour = function (country) {
 };
 
 getCountriesAndNeighbour('portugal');
-// getCountriesAndNeighbour('usa');
+getCountriesAndNeighbour('usa');
