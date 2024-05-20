@@ -28,6 +28,7 @@ const renderCountry = function (data) {
 };
 
 const getCountriesAndNeighbor = function (country) {
+    //  ajax call for country 1
     const request = new XMLHttpRequest();
     request.open('GET', `https://restcountries.com/v2/name/${country}`);
     request.send();
@@ -35,7 +36,9 @@ const getCountriesAndNeighbor = function (country) {
     request.addEventListener('load', function () {
         const [data] = JSON.parse(request.responseText);
         console.log(data);
+        //  render country 1
         renderCountry(data);
+        //  ger  neighbor country
     });
 };
 
