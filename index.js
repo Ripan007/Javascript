@@ -55,7 +55,6 @@ btn.addEventListener('click', function () {
     getCountryData('portugal');
 });
 
-getCountryData('jjjjj');
 /*
 const getCountriesAndNeighbour = function (country) {
     //  ajax call for country 1
