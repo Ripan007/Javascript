@@ -1,2 +1,6 @@
 console.log('test start');
-console.log('');
+setTimeout(() => {
+    console.log('0 second timer');
+}, 0);
+Promise.resolve('resolved promise 1').then(res => console.log(res));
+console.log('test end');
