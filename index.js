@@ -3,6 +3,10 @@
 https://restcountries.com/v2/all
 https://restcountries.com/v2/name/county
 */
+const renderError = function (msg) {
+    countriesContainer.insertAdjacentText('beforeend', msg);
+    // countriesContainer.style.opacity = 1;
+};
 
 const btn = document.querySelector('.btn-country');
 const countriesContainer = document.querySelector('.countries');
@@ -26,10 +30,6 @@ const renderCountry = function (data, className = '') {
     countriesContainer.insertAdjacentHTML('beforeend', html);
 };
 
-const renderError = function (msg) {
-    countriesContainer.insertAdjacentText('beforeend', msg);
-    countriesContainer.style.opacity = 1;
-};
 const getCountryData = function (country) {
     fetch(`https://restcountries.com/v2/name/${country}`)
         .then(response => response.json())
@@ -48,7 +48,7 @@ const getCountryData = function (country) {
             );
         })
         .finally(function () {
-            countriesContainer.style.opacity = 0;
+            countriesContainer.style.opacity = 1;
         });
 };
 
