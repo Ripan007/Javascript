@@ -62,9 +62,9 @@ const renderCountry = function (data, className = '') {
 };
 
 const getCountryData = function (country) {
-    fetch(`https://restcountries.com/v2/name/${country}`).then(function (
-        response
-    ) {
-        return response.json();
-    });
+    fetch(`https://restcountries.com/v2/name/${country}`)
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function () {});
 };
