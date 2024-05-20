@@ -80,6 +80,7 @@ const getCountryData = function (country) {
             renderCountry[data[0]];
             const neighbour = data[0].borders[0];
             if (!neighbour) return;
+            //  fetch 2 country
             return fetch(`https://restcountries.com/v2/alpha/${neighbour}`);
         })
         .then(response => response.json())
