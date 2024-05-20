@@ -84,7 +84,10 @@ const getCountryData = function (country) {
             return fetch(`https://restcountries.com/v2/alpha/${neighbour}`);
         })
         .then(response => response.json())
-        .then(data => renderCountry(data, 'neighbour'));
+        .then(data => renderCountry(data, 'neighbour'))
+        .catch(err => {
+            readError();
+        });
 };
 
 btn.addEventListener('click', function () {
