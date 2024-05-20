@@ -41,6 +41,10 @@ const getCountriesAndNeighbour = function (country) {
         //  ger  neighbor country 2
         const [neighbour] = data.borders;
         if (!neighbour) return;
+        //  ajax call for country 2
+        const request = new XMLHttpRequest();
+        request.open('GET', `https://restcountries.com/v2/alpha/${neighbour}`);
+        request.send();
     });
 };
 
