@@ -7,7 +7,7 @@ https://restcountries.com/v2/name/county
 const btn = document.querySelector('.btn-country');
 const countriesContainer = document.querySelector('.countries');
 const renderCountry = function (data, className = '') {
-    const html = `<article class=country ${className}  >
+    const html = `<article class="country ${className}"  >
                     <img src="${data.flag}" alt="" class="country__img" />
                     <div class="country__data">
                         <h3 class="country__name">${data.name}</h3>
