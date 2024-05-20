@@ -38,7 +38,8 @@ const getCountriesAndNeighbor = function (country) {
         console.log(data);
         //  render country 1
         renderCountry(data);
-        //  ger  neighbor country
+        //  ger  neighbor country 2
+        const [neighbor] = data.borders;
     });
 };
 
