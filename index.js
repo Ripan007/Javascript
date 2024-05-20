@@ -42,9 +42,13 @@ const getCountriesAndNeighbour = function (country) {
         const [neighbour] = data.borders;
         if (!neighbour) return;
         //  ajax call for country 2
-        const request = new XMLHttpRequest();
-        request.open('GET', `https://restcountries.com/v2/alpha/${neighbour}`);
-        request.send();
+        const request2 = new XMLHttpRequest();
+        request2.open('GET', `https://restcountries.com/v2/alpha/${neighbour}`);
+        request2.send();
+        request2.addEventListener('load', function () {
+            const data2 = JSON.parse(request2.responseText);
+            console.log(data2);
+        });
     });
 };
 
