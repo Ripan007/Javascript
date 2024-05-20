@@ -47,10 +47,11 @@ const getCountriesAndNeighbour = function (country) {
         request2.send();
         request2.addEventListener('load', function () {
             const data2 = JSON.parse(request2.responseText);
-            console.log(data2);
+            // console.log(data2);
+            renderCountry(data2);
         });
     });
 };
 
 getCountriesAndNeighbour('portugal');
-getCountriesAndNeighbour('usa');
+// getCountriesAndNeighbour('usa');
