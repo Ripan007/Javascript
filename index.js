@@ -1,4 +1,13 @@
 'use strict';
+/*
+https://restcountries.com/v2/all
+https://restcountries.com/v2/name/county
+*/
+
 const btn = document.querySelector('.btn-country');
 const countriesContainer = document.querySelector('.countries');
-console.log(btn, countriesContainer);
+
+const request = new XMLHttpRequest();
+request.open('GET', 'https://restcountries.com/v2/name/portugal');
+request.send();
+console.log(request.responseText);
