@@ -86,8 +86,11 @@ const getCountryData = function (country) {
         .then(response => response.json())
         .then(data => renderCountry(data, 'neighbour'))
         .catch(err => {
-            readError('something went wrong ✴️✴️✴️ ');
-        });
+            readError(
+                `something went wrong ✴️✴️✴️  ${err.message}.Try again later.`
+            );
+        })
+        .finally(function () {});
 };
 
 btn.addEventListener('click', function () {
