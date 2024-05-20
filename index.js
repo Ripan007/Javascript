@@ -75,9 +75,9 @@ const renderCountry = function (data, className = '') {
 // simplified way
 
 const getCountryData = function (country) {
-    fetch(`https://restcountries.com/v2/name/${country}`).then(
-        (response => response.json()).then(data => renderCountry(data[0]))
-    );
+    fetch(`https://restcountries.com/v2/name/${country}`)
+        .then(response => response.json())
+        .then(data => renderCountry(data[0]));
 };
 
 getCountryData('bharat');
