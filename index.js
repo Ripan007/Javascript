@@ -17,7 +17,7 @@ request.addEventListener('load', function () {
     const html = `<article class="country">
                     <img src="${data.flag}" alt="" class="country__img" />
                     <div class="country__data">
-                        <h3 class="country__name">name</h3>
+                        <h3 class="country__name">${data.name}</h3>
                         <h4 class="country__region">region</h4>
                         <p class="country__row"><span>🧑‍🤝‍🧑</span>pop people</p>
                         <p class="country__row"><span>👅</span>lang</p>
