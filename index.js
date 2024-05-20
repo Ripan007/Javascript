@@ -27,7 +27,7 @@ const renderCountry = function (data) {
     countriesContainer.style.opacity = 1;
 };
 
-const getCountriesAndNeighbor = function (country) {
+const getCountriesAndNeighbour = function (country) {
     //  ajax call for country 1
     const request = new XMLHttpRequest();
     request.open('GET', `https://restcountries.com/v2/name/${country}`);
@@ -39,9 +39,10 @@ const getCountriesAndNeighbor = function (country) {
         //  render country 1
         renderCountry(data);
         //  ger  neighbor country 2
-        const [neighbor] = data.borders;
+        const [neighbour] = data.borders;
+        if (!neighbour) return;
     });
 };
 
-getCountriesAndNeighbor('portugal');
-getCountriesAndNeighbor('usa');
+getCountriesAndNeighbour('portugal');
+getCountriesAndNeighbour('usa');
