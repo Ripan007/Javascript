@@ -66,5 +66,9 @@ const getCountryData = function (country) {
         .then(function (response) {
             return response.json();
         })
-        .then(function () {});
+        .then(function (data) {
+            renderCountry(data[0]);
+        });
 };
+
+getCountryData('portugal');
