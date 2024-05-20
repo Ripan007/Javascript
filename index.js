@@ -28,6 +28,7 @@ const renderCountry = function (data, className = '') {
 
 const renderError = function (msg) {
     countriesContainer.insertAdjacentText('beforeend', msg);
+    countriesContainer.style.opacity = 1;
 };
 const getCountryData = function (country) {
     fetch(`https://restcountries.com/v2/name/${country}`)
@@ -47,7 +48,7 @@ const getCountryData = function (country) {
             );
         })
         .finally(function () {
-            countriesContainer.style.opacity = 1;
+            countriesContainer.style.opacity = 0;
         });
 };
 
