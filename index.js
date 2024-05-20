@@ -6,6 +6,7 @@ https://restcountries.com/v2/name/county
 
 const btn = document.querySelector('.btn-country');
 const countriesContainer = document.querySelector('.countries');
+/*
 const renderCountry = function (data, className = '') {
     const html = `<article class="country ${className}"  >
                     <img src="${data.flag}" alt="" class="country__img" />
@@ -55,3 +56,6 @@ const getCountriesAndNeighbour = function (country) {
 
 getCountriesAndNeighbour('portugal');
 getCountriesAndNeighbour('usa');
+*/
+
+//  modern way of fetching  data
